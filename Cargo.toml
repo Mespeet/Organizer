@@ -1,0 +1,11 @@
+[package]
+name = "Organizer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.3", features = ["derive"] }
+mlua = { version = "0.8", features = ["lua54", "vendored", "serialize"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+whoami = "1.4"
