@@ -32,7 +32,7 @@ cargo build --release
 
 ### Install the CLI Tool
 
-To install `file_sorter` globally on your system:
+To install `Organizer` globally on your system:
 
 ```sh
 cargo install --path .
@@ -45,7 +45,7 @@ cargo install --path .
 To manually sort files in a directory, run:
 
 ```sh
-file_sorter sort --path /path/to/directory
+Organizer sort --path /path/to/directory
 ```
 
 This will move files into subfolders based on the rules defined in `rules.json` or Lua scripts.
