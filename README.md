@@ -25,7 +25,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 To get started, clone the repository and build the project:
 
 ```sh
-git clone https://github.com/mespeet/Organizer.git
+git clone https://github.com/Mespeet/Organizer.git
 cd Organizer
 cargo build --release
 ```
