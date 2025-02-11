@@ -52,10 +52,10 @@ This will move files into subfolders based on the rules defined in `rules.json` 
 
 ### Running as a Background Daemon
 
-If you want `file_sorter` to run continuously and sort files at regular intervals, use daemon mode:
+If you want `Organizer` to run continuously and sort files at regular intervals, use daemon mode:
 
 ```sh
-file_sorter daemon --path /path/to/directory --interval 10
+Organizer daemon --path /path/to/directory --interval 10
 ```
 
 - `--path` specifies the directory to monitor.
@@ -66,7 +66,7 @@ file_sorter daemon --path /path/to/directory --interval 10
 To automatically run `file_sorter` in the background whenever your computer starts, install it as a system service:
 
 ```sh
-file_sorter install --path /path/to/directory --interval 10
+Organizer install --path /path/to/directory --interval 10
 ```
 
 On Linux, this sets up a **systemd service**, and on Windows, it creates a **scheduled task**.
@@ -97,7 +97,7 @@ In this example:
 
 ### Extending Sorting Logic with Lua Scripts
 
-For more flexibility, you can define custom sorting rules using Lua. Create a file named `sort_rules.lua` in the same directory as `file_sorter`.
+For more flexibility, you can define custom sorting rules using Lua. Create a file named `sort_rules.lua` in the same directory as `Organizer`.
 
 Example `sort_rules.lua`:
 
