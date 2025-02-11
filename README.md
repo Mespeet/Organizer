@@ -63,7 +63,7 @@ Organizer daemon --path /path/to/directory --interval 10
 
 ### Installing as a System Service
 
-To automatically run `file_sorter` in the background whenever your computer starts, install it as a system service:
+To automatically run `Organizer` in the background whenever your computer starts, install it as a system service:
 
 ```sh
 Organizer install --path /path/to/directory --interval 10
